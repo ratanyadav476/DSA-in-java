@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+public class FirsthArrayList {
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        // ArrayList<Boolean> list1 = new ArrayList<>();
+        // ArrayList<Float> list3 = new ArrayList<>();
+        // ArrayList<String> list4 = new ArrayList<>();
+        list.add(8);
+        list.add(2);
+        list.add(7);
+        list.add(6);
+        list.add(5);
+        System.out.println(list);
+
+        // get elements
+        // int element = list.get(0);
+        // int element1 = list.get(2);
+        // int element3 = list.get(3);
+        // System.out.println(element);
+        // System.out.println(element1);
+        // System.out.println(element3);
+
+        // remove
+        // list.remove(2);
+        // System.out.println(list);
+
+        // list.set(2, 9);
+        // int elem2 = list.get(2);
+        // System.out.println(elem2);
+        // System.out.println(list);
+
+        // contains method /
+        // System.out.println(list.contains(9));
+        // System.out.println(list.contains(19));
+
+        // printing elements using loops
+        int sizes = list.size();
+        System.out.println(sizes);
+        for (int i = 0; i < list.size(); i++) {
+            int get = list.get(i);
+            System.out.println(get + " ");
+        }
+        System.out.println();
+
+        Collections.sort(list);
+        System.out.println(list);
+
+    }
+
+}
