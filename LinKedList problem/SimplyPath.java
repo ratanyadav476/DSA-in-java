@@ -2,7 +2,7 @@ import java.util.*;
 
 public class TrapingRainWater {
     public static void main(String[] args) {
-        String str = new String("/a/./b/../../c/");
+        String str = new String("/a/./b/../../c/"); 
         String res = simplify(str);
         System.out.println(res);
     }
