@@ -1,4 +1,3 @@
-
 public class DoublyLl {
     public class Node {
         int data;
