@@ -8,7 +8,6 @@ public class Binarysearch {
             this.data = data;
             this.left = null;
             this.right = null;
-
         }
     }
 
